@@ -22,7 +22,7 @@
 		color: #56d0c1;
 		font-family: 'Poiret One',sans-serif;
 		text-align: center;
-		font-size: 3em;
+		font-size: 2.4em;
 		margin-left: 27%;
 
 
@@ -31,14 +31,14 @@
 		font-family: 'Montserrat', sans-serif;
 
 		text-align: left;
-		font-size: .7em;
+		font-size: .8em;
 		color: grey;
 	}
 	#why{
 		font-family: 'Montserrat', sans-serif;
 
 		text-align: left;
-		font-size: 2em;
+		font-size: 1.7em;
 		color: grey;	
 		margin-left: 27%;
 		display: none;
@@ -48,7 +48,7 @@
 		font-family: 'Montserrat', sans-serif;
 
 		text-align: left;
-		font-size: 2em;
+		font-size: 1.7em;
 		color: grey;
 		margin-left: 27%;
 		margin-top: 17%;
@@ -77,7 +77,7 @@
 		font-family: 'Montserrat', sans-serif;
 
 		text-align: left;
-		font-size: 2em;
+		font-size: 1.7em;
 		color: grey;
 	}
 	#news{
@@ -85,15 +85,14 @@
 		font-family: 'Montserrat', sans-serif;
 
 		text-align: center;
-		font-size: 2em;
+		font-size: 1.7em;
 		color: grey;
 		margin-left: 27%;
 		margin-top: 17%;
 	}
 	#contactdata{
-		display: none;
 		margin-left:30%;
-		font-size:2em; 
+		font-size:1.7em; 
 		margin-top: 5%;
 		text-align:center ;
 
