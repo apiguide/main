@@ -29,12 +29,14 @@
 	}
 	#getStartedtext{
 		font-family: 'Montserrat', sans-serif;
+
 		text-align: left;
 		font-size: .7em;
 		color: grey;
 	}
 	#why{
 		font-family: 'Montserrat', sans-serif;
+
 		text-align: left;
 		font-size: 2em;
 		color: grey;	
@@ -44,6 +46,7 @@
 	}
 	#searchtext{
 		font-family: 'Montserrat', sans-serif;
+
 		text-align: left;
 		font-size: 2em;
 		color: grey;
@@ -65,15 +68,14 @@
 		color: #56d0c1;
 		text-align:center;
 	}
-	a:hove
+	a:hover{
+		border-bottom:2px dashed #202020;	
+	}
+	#links{
 		margin-top: -25%;
 		margin-left: 73%;
 		font-family: 'Montserrat', sans-serif;
-'Montserrat', sans-serif;
-'Montserrat', sans-serif;
-'Montserrat', sans-serif;
-'Montserrat', sans-serif;
-'Montserrat', sans-serif;
+
 		text-align: left;
 		font-size: 2em;
 		color: grey;
@@ -81,11 +83,7 @@
 	#news{
 		display: none;
 		font-family: 'Montserrat', sans-serif;
-'Montserrat', sans-serif;
-'Montserrat', sans-serif;
-'Montserrat', sans-serif;
-'Montserrat', sans-serif;
-'Montserrat', sans-serif;
+
 		text-align: center;
 		font-size: 2em;
 		color: grey;
