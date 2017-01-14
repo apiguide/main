@@ -12,12 +12,14 @@
 		text-align:center;
 		padding-top: 6%;	
 	}
+
 	#sideBar-text:hover{
 		color: #56d0c1;
 		cursor: default;
 	}
-
-
+	#desktophide{
+		display: none;
+	}
 	#getStarted{
 		color: #56d0c1;
 		font-family: 'Poiret One',sans-serif;
@@ -97,4 +99,13 @@
 		margin-top: 5%;
 		text-align:center ;
 
+	}
+	#vpn{
+		font-family: 'Montserrat', sans-serif;
+		display: none;
+		text-align: center;
+		font-size: 1.7em;
+		color: grey;
+		margin-left: 27%;
+		margin-top: 17%;
 	}
