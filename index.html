@@ -2,44 +2,61 @@
 <html>
 <head>
 	<title>The API Guide</title>
-	<!--SiteVersion :1.0.6-->
+	<!--SiteVersion :1.7.6-->
 	<!---Author : Smith Bhojak-->
-	<script type="text/javascript">
-  <!--
-  if (screen.width <= 800) {
+<!--
+	 if (screen.width <= 800) {
     window.location = "https://apiguide.github.io/mobile";
   }
   //-->
-</script>
 	<meta name="author" content="Smith Bhojak">
-	<meta name="keyword" content="Smith bhojak,bhojak,smith,sbhojak,api,apiguide,vpn, proxy,api+guide , Framework, guide+for+api,Google+api">
+	<meta name="keyword" content="Smith bhojak,bhojak,smith,sbhojak,api,apiguide,api+guide , Framework, guide+for+api,Google+api">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
 
 <link href="https://fonts.googleapis.com/css?family=Acme|Bree+Serif|Exo+2|Gloria+Hallelujah|Lobster+Two|Lobster|Pacifico|Shadows+Into+Light|Open+Sans|Reem+kufi|Cherry+Swash|Montserrat|Poiret+One|" rel="stylesheet">
 </head>
 <body>
+<div id="topbar">
+<span id="showmenu">
+	<i class="fa fa-bars" aria-hidden="true" id="desktophide" id="icon"></i>	
+</span>
+
+<span id="searchicon">
+	<i class="fa fa-search" aria-hidden="true" id="desktophide" ></i><br>
+</span>
+</div>
+<br>
 	<div id="sideBar">
-	
-	<div id="getStartedShow">
-		<p id="sideBar-text"><i class="fa fa-play" aria-hidden="true"></i> Get Started <br><br><br></p>
+	<span id="hidemenu" id="desktophide">
+	<i class="fa fa-times" aria-hidden="true" id="desktophide" id="icon"></i>	
+	</span><br>
+		<div id="getStartedShow">
+		<p id="sideBar-text"><i class="fa fa-play" aria-hidden="true"></i> Get Started <br><br></p>
 	</div>
 	
 	<div id="whyShow">
-		<p id="sideBar-text">Why Use API <i class="fa fa-question-circle" aria-hidden="true"></i></i><br><br><br></p>
+		<p id="sideBar-text">Why Use API <i class="fa fa-question-circle" aria-hidden="true"></i></i><br><br></p>
 	</div>
 
 	<div id="searchshow">
-		<p id="sideBar-text"><i class="fa fa-search" aria-hidden="true"></i> Search For API   <br><br
-		><br></p>
+		<p id="sideBar-text"><i class="fa fa-search" aria-hidden="true"></i> Search For API   
+		<br><br></p>
 	</div>	
 		
 	<div id="newsshow">
-		<p id="sideBar-text"><i class="fa fa-newspaper-o" aria-hidden="true"></i> API News and Reviews <br><br><br></p>
+		<p id="sideBar-text"><i class="fa fa-newspaper-o" aria-hidden="true"></i> API News and Reviews <br><br></p>
+	</div>
+
+	<div id="vpnshow" >
+		<p id="sideBar-text"><i class="fa fa-lock" aria-hidden="true"></i> VPN and Proxy <br> <br></p>
 	</div>
 	
 	<div id="contact" >
-		<p id="sideBar-text"><i class="fa fa-pencil" aria-hidden="true"></i> Contact us</p>
+		<p id="sideBar-text"><i class="fa fa-pencil" aria-hidden="true"></i> Contact us<br><br></p>
 	</div>
+
+		
+
 	</div>
 	<div id="getStarted">
 		<h1>The API Guide !</h1>
@@ -57,12 +74,12 @@
 
 	</div>
 
-	<div id="search">
+	<div id="search" >
 	<p id="searchtext">Enter The Name of the API <br>You would like to search
 	<p id="gsearch">
 		<gcse:search>					
 		</gcse:search>
-	</p>
+	</p><br>
 	<p id="links">	
 	<a href="#">Google APIs<br><br>
 	<a href="#">Facebook APIs<br><br>
@@ -71,8 +88,13 @@
 	<a href="#">Jquery APIs<br><br>
 	<a href="#">BootStrap Framework
 	</div>
-
 	<div id="news">
+		<i class="fa fa-clock-o fa-5x" aria-hidden="true"></i><br>
+		Work Under Progress
+
+	</div>
+
+	<div id="vpn"  style="color: grey;">
 		<i class="fa fa-clock-o fa-5x" aria-hidden="true"></i><br>
 		Work Under Progress
 
@@ -97,7 +119,9 @@
 	<br>
 	<div class="fb-comments" data-href="https://apiguide.github.io/main" data-numposts="5"></div>
 
-	<p style="color:#202020;font-size: .5em;">Desktop Design Created By <a href="https://bhojaksmith.github.io/aboutme">Smith Bhojak</a></p>
+	<p style="color:#202020;font-size: .5em;" id="mobilehide">Desktop Design Created By <a href="https://bhojaksmith.github.io/aboutme">Smith Bhojak</a></p>
+	<p style="color:#202020;font-size: .7em;" id="desktophide">Mobile Design Created By <a href="https://bhojaksmith.github.io/aboutme">Smith Bhojak</a> and <a href="https://www.facebook.com/panchasara.bhavin.3">Bhavin Panchasara</a></p>
+
 	</div>
 	<div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -131,6 +155,7 @@
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 		<script type="text/javascript" src="script.js"></script>
-	<link rel="stylesheet" type="text/css" href="large.css">
-</body>
+<link rel="stylesheet" type="text/css"  media="screen and (min-width: 800px)" href="large.css">		
+ 	<!--Mobile View-->		
+ 	<link rel="stylesheet" type="text/css"  media="screen and (max-width: 500px)"  href="small.css"></body>
 </html>
