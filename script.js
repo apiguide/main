@@ -139,6 +139,11 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $("#contact").click(function(){
+        $("#contactdata").fadeToggle(); 
+    });
+});
+$(document).ready(function(){
+    $("#contact").click(function(){
         $("#search").hide(); 
     });
 });$(document).ready(function(){
