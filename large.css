@@ -16,7 +16,7 @@
 	#sideBar-text:hover{
 		color: #56d0c1;
 		cursor: default;
-		border-bottom:1px solid dashed;
+		border-bottom:1px solid #56d0c1;
 	}
 	#desktophide{
 		display: none;
