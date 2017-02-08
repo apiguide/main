@@ -1,7 +1,8 @@
+
 	#sideBar{
 		font-family: "Exo+2" ,sans-serif;
 		color: lightgrey;
-		font-size: 1.65em;
+		font-size: 1.6em;
 		background:#202020;
 		position:fixed;
 		top:0;
@@ -27,8 +28,6 @@
 		text-align: center;
 		font-size: 2.4em;
 		margin-left: 27%;
-
-
 	}
 	#getStartedtext{
 		font-family: 'Montserrat', sans-serif;
@@ -37,15 +36,18 @@
 		font-size: .8em;
 		color: grey;
 	}
+	#review{
+
+	}
 	#why{
 		font-family: 'Montserrat', sans-serif;
-
 		text-align: left;
 		font-size: 1.7em;
 		color: grey;	
 		margin-left: 27%;
 		display: none;
-		margin-top: 15%;
+		padding-bottom: 8%;
+		margin-top: 10%;
 	}
 	#searchtext{
 		font-family: 'Montserrat', sans-serif;
@@ -83,15 +85,18 @@
 		font-size: 1.7em;
 		color: grey;
 	}
-	#news{
+	#review , #news{
 		display: none;
 		font-family: 'Montserrat', sans-serif;
-
-		text-align: center;
-		font-size: 1.7em;
+		font-size: 1em;
 		color: grey;
-		margin-left: 27%;
-		margin-top: 17%;
+		margin-left: 30%;
+		
+	}
+	iframe{
+		border: none;
+		height: 1000px;
+		width: 700px;
 	}
 	#contactdata{
 		display: none;
